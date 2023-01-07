@@ -5,10 +5,8 @@ There are two MATLAB scripts that I made -- AverageShadowArea.mlx takes the aver
 The second one, AverageShadowAreaofSTL.mlx, takes a meash of an .stl object and takes the average shadow area of that.  
 # Method  
 The random orientation of the object was determined by an array of uniformly random points on a sphere, to which the object is then pointed one-by-one.
-The points were aqcuired thanks to Anton Semechko's wonderful code:  
-https://github.com/AntonSemechko/S2-Sampling-Toolbox 
+The points were aqcuired thanks to Anton Semechko's [wonderful code](https://github.com/AntonSemechko/S2-Sampling-Toolbox). 
 
 # Dependencies 
-AverageShadowAreaofSTL.mlx requires "Partial Differential Equation Toolbox."
-
-Semchenko's functions from "RandSampleSphere.m" and "SpiralSampleSphere.m" were used.
+* AverageShadowAreaofSTL.mlx requires "Partial Differential Equation Toolbox."
+* Semchenko's functions from "RandSampleSphere.m" and "SpiralSampleSphere.m" were used.
