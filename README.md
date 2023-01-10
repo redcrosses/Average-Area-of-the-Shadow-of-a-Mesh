@@ -8,5 +8,5 @@ The random orientation of the object was determined by an array of uniformly ran
 The points were aqcuired thanks to Anton Semechko's [wonderful code](https://github.com/AntonSemechko/S2-Sampling-Toolbox). 
 
 # Dependencies 
-* AverageShadowAreaofSTL.mlx requires "Partial Differential Equation Toolbox."
 * Semchenko's [S^2 Sampling Toolbox](https://github.com/AntonSemechko/S2-Sampling-Toolbox) is required for both scripts, as the function from "RandSampleSphere.m" was used.
+* AverageShadowAreaofSTL.mlx requires "Partial Differential Equation Toolbox."
