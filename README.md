@@ -11,6 +11,3 @@ The points were acquired thanks to Anton Semechko's [code](https://github.com/An
 * Semechko's [S^2 Sampling Toolbox](https://github.com/AntonSemechko/S2-Sampling-Toolbox) is required for both scripts, as the function from "RandSampleSphere.m" was used.
 ## Problems
 * The method for shadow parsing in AverageShadowArea.mlx does not work for AverageShadowAreaofSTL.mlx. in I am pretty sure that the logic for the shadow parsing from the array of vertices does not produce an accurate shadow for irregular objects. Sometimes the convex hull will eat up certain parts that are supposed to be the shadow's outline which affects the shadow. I am not sure how to fix this :)
-
-## License
-[MIT](https://github.com/redcrosses/Average-Area-of-the-Shadow-of-a-Mesh/blob/main/LICENSE) © 2023 Denis Kiryukhin (den.kiryukhin@gmail.com)
